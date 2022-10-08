@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.aya.navapp.splashScreen"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreen_to_viewPager2"
+            app:destination="@id/viewPager2" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewPager2"
+        android:name="com.aya.navapp.onBoarding.viewPager"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" >
+        <action
+            android:id="@+id/action_viewPager2_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.aya.navapp.homeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.aya.navapp.cartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/ordersFragment"
+        android:name="com.aya.navapp.ordersFragment"
+        android:label="fragment_orders"
+        tools:layout="@layout/fragment_orders" />
+    <fragment
+        android:id="@+id/settingsFragments"
+        android:name="com.aya.navapp.settingsFragments"
+        android:label="fragment_settings_fragments"
+        tools:layout="@layout/fragment_settings_fragments" />
+</navigation>

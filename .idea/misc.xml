@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ayaga/StudioProjects/NavApp/app/src/main/res/layout/activity_main.xml" value="0.2640625" />
+        <entry key="..\:/Users/ayaga/StudioProjects/NavApp/app/src/main/res/layout/fragment_cart.xml" value="0.278125" />
+        <entry key="..\:/Users/ayaga/StudioProjects/NavApp/app/src/main/res/layout/fragment_first_screen.xml" value="0.278125" />
+        <entry key="..\:/Users/ayaga/StudioProjects/NavApp/app/src/main/res/layout/fragment_home.xml" value="0.278125" />
+        <entry key="..\:/Users/ayaga/StudioProjects/NavApp/app/src/main/res/layout/fragment_orders.xml" value="0.278125" />
+        <entry key="..\:/Users/ayaga/StudioProjects/NavApp/app/src/main/res/layout/fragment_scond_screen.xml" value="0.278125" />
+        <entry key="..\:/Users/ayaga/StudioProjects/NavApp/app/src/main/res/layout/fragment_settings_fragments.xml" value="0.278125" />
+        <entry key="..\:/Users/ayaga/StudioProjects/NavApp/app/src/main/res/layout/fragment_splash_screen.xml" value="0.278125" />
+        <entry key="..\:/Users/ayaga/StudioProjects/NavApp/app/src/main/res/layout/fragment_view_pager.xml" value="0.278125" />
+        <entry key="..\:/Users/ayaga/StudioProjects/NavApp/app/src/main/res/layout/item_viewpagger2_layout.xml" value="0.278125" />
+        <entry key="..\:/Users/ayaga/StudioProjects/NavApp/app/src/main/res/menu/menu1.xml" value="0.278125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
